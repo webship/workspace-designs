@@ -7,10 +7,10 @@
  * rail buttons, row menus or assistant context would go.
  */
 
-import type { PluginApi } from '@webship/workspace-plugin-api';
+import type { PluginApi } from '@webship.co/workspace-plugin-api';
 
 export const WORKSPACE_KEY = 'designs';
 
 export function register(api: PluginApi): void {
-  api.addAssistantContext(() => `The designs/ workspace is the Designs workspace (a plugin, @webship/workspace-designs); its commands are the cmd-*.sh scripts in that folder.`);
+  api.addAssistantContext(() => `The designs/ workspace is the Designs workspace (a plugin, @webship.co/workspace-designs); its commands are the cmd-*.sh scripts in that folder.`);
 }
