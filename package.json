@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-designs",
   "version": "1.0.0-alpha1",
-  "description": "The Designs workspace for Webship Workspace: the `designs/` folder (type sites), its settings file, its 10 commands and its docs, activated as a plugin.",
+  "description": "The Designs workspace for Webship Workspace: the `designs/` folder (type sites), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,18 +29,7 @@
     "workspace": {
       "key": "designs",
       "settingsTemplate": "config/workspace.designs.settings.yml",
-      "files": [
-        "commands/cmd-penpot-backup.sh",
-        "commands/cmd-penpot-mcp.sh",
-        "commands/cmd-penpot-project.sh",
-        "commands/cmd-penpot-token.sh",
-        "commands/cmd-tool-backup-design.sh",
-        "commands/cmd-tools-graphify.sh",
-        "commands/cmd-tools-obsidian.sh",
-        "commands/cmd-tools-ragify.sh",
-        "commands/cmd-tools-reclaim.sh",
-        "commands/cmd-tools-remove.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",

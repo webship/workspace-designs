@@ -20,15 +20,6 @@ The settings file and the docs are placed once and never overwritten: they hold 
 
 | Command |
 | --- |
-| `cmd-penpot-backup.sh` |
-| `cmd-penpot-mcp.sh` |
-| `cmd-penpot-project.sh` |
-| `cmd-penpot-token.sh` |
-| `cmd-tool-backup-design.sh` |
-| `cmd-tools-graphify.sh` |
-| `cmd-tools-obsidian.sh` |
-| `cmd-tools-ragify.sh` |
-| `cmd-tools-reclaim.sh` |
-| `cmd-tools-remove.sh` |
+| (none) |
 
 The bash functions these commands call live in the dashboard's `core/scripts/functions`.
