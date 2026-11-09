@@ -1,6 +1,6 @@
 {
   "name": "@webship.co/workspace-designs",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "The Designs workspace for Webship Workspace: the `designs/` folder (type sites), its settings file, its 7 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
