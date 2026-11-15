@@ -1,0 +1,69 @@
+{
+  "_from": "webship/workspace 1.0.10: core/scripts/args/*.sh and the argparse block of each command of this folder",
+  "_aiFolders": {
+    "cmd-tools-ai-items.sh": [
+      "--add",
+      "--check",
+      "--clone-to",
+      "--confirm",
+      "--fetch",
+      "--filter",
+      "--install",
+      "--list-remote",
+      "--propose",
+      "--pull",
+      "--purpose",
+      "--source",
+      "--status",
+      "--summary",
+      "--to",
+      "--update"
+    ]
+  },
+  "_workspace": [
+    "--help",
+    "--require",
+    "--activate",
+    "--install",
+    "--configure",
+    "--deactivate",
+    "--uninstall",
+    "--check",
+    "--list",
+    "--with-needs",
+    "--permission-mode"
+  ],
+  "cmd-penpot-backup.sh": [],
+  "cmd-penpot-mcp.sh": [
+    "--mcp-action"
+  ],
+  "cmd-penpot-project.sh": [
+    "--email",
+    "--flags",
+    "--force",
+    "--fullname",
+    "--launch",
+    "--mail-port",
+    "--no-register",
+    "--password",
+    "--penpot-version",
+    "--public-uri",
+    "--secret-key"
+  ],
+  "cmd-penpot-token.sh": [
+    "--email",
+    "--password",
+    "--token-name"
+  ],
+  "cmd-tool-backup-design.sh": [],
+  "cmd-tools-reclaim.sh": [
+    "--apply",
+    "--keep-days",
+    "--list-protected",
+    "--only"
+  ],
+  "cmd-tools-remove.sh": [
+    "--force",
+    "--orphans"
+  ]
+}

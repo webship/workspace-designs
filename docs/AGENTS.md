@@ -29,3 +29,13 @@ bash cmd-tools-ragify.sh                              # Index a project in this 
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-designs`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `designs-penpot-keeper` (`ai-agents/`): Runs and looks after a self-hosted Penpot instance in `designs/`: build, address, backup, access token, the server for design agents; never recreates an instance unasked
+- `designs-workflow` (`ai-skills/`): How work is done in `designs/`: look, build, back up, token and server for AI work; every command with its flags, the `penpot` settings keys
+- `/designs-backup` (`ai-commands/`): `/designs-backup [instance]`: checks the instance is there and running, backs up its database and assets, says where the backup is
+- `designs-start-penpot` (`ai-prompts/`): A new session that starts a Penpot instance and gets it ready for design work with an AI assistant
