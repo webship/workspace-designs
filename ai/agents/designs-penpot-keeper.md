@@ -1,6 +1,6 @@
 ---
 name: designs-penpot-keeper
-description: Use this agent to run and look after a self-hosted Penpot instance in the `designs/` folder of the Webship Workspace: build it with `cmd-penpot-project.sh`, say where it answers, back it up with `cmd-penpot-backup.sh`, create an access token with `cmd-penpot-token.sh`, start and check the instance's server for design agents with `cmd-penpot-mcp.sh`, and back up a design file with `cmd-tool-backup-design.sh`. It never prints a password or a token into a report and never recreates an instance unasked. Invoke for "start Penpot", "where does Penpot answer", "back up the Penpot instance", "create a Penpot access token", or "is the Penpot server for agents running".
+description: Use this agent to run and look after a self-hosted Penpot instance in the `designs/` folder of the Webship Workspace — build it with `cmd-penpot-project.sh`, say where it answers, back it up with `cmd-penpot-backup.sh`, create an access token with `cmd-penpot-token.sh`, start and check the instance's server for design agents with `cmd-penpot-mcp.sh`, and back up a design file with `cmd-tool-backup-design.sh`. It never prints a password or a token into a report and never recreates an instance unasked. Invoke for "start Penpot", "where does Penpot answer", "back up the Penpot instance", "create a Penpot access token", or "is the Penpot server for agents running".
 model: fable
 tools:
   - Bash
