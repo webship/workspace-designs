@@ -24,3 +24,11 @@ test('register() adds the assistant context and nothing else', () => {
   assert.strictEqual(calls.length, 1);
   assert.match(calls[0], /designs\//);
 });
+
+test('the settings template is YAML: every line is a comment, a key or a list item, never a bare value (#21)', () => {
+  const m = JSON.parse(fs.readFileSync(path.join(PKG, 'package.json'), 'utf8')).workspacePlugin;
+  const lines = fs.readFileSync(path.join(PKG, m.workspace.settingsTemplate), 'utf8').split('\n');
+  const bad = lines.map((l, i): [number, string] => [i + 1, l]).filter(([, l]) => l.trim() && !/^\s*#/.test(l) && !/^\s*[A-Za-z0-9_.-]+:(\s|$)/.test(l) && !/^\s*- /.test(l));
+  assert.deepStrictEqual(bad, [], `lines that are not YAML: ${bad.map(([n, l]) => `${n}: ${l.trim()}`).join('; ')}`);
+  assert.doesNotMatch(lines.join('\n'), /^\s*CHANGE_ME\s*$/m);
+});
